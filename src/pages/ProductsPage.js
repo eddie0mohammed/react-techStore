@@ -1,10 +1,14 @@
 import React from 'react'
+import Products from '../components/ProductsPage/Products';
+import Hero from '../components/Hero';
+import productBcg from '../images/productsBcg.jpeg';
 
 const ProductsPage = () => {
     return (
-        <div>
-            <h1>ProductsPage</h1>      
-        </div>
+        <React.Fragment>
+            <Hero img={productBcg} />
+            <Products />
+        </React.Fragment>
     )
 }
 
