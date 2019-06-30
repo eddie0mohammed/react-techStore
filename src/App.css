@@ -49,3 +49,7 @@ body{
     color: var(--primaryColor);
     outline: var(--darkGrey);
 }
+
+.cart-icon:hover{
+    cursor:pointer
+}

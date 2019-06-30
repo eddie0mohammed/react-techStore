@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import {faSearch, FaCartPlus, FaSearch} from 'react-icons/fa';
+import {FaCartPlus, FaSearch} from 'react-icons/fa';
 import {ProductConsumer} from '../context/context';
 
 
@@ -25,7 +25,7 @@ const Product = ({product, }) => {
                             </div>
                             <div className="card-body d-flex justify-content-between">
                                 <p className="mb-0">{product.title}</p>
-                                <p className="mb-0 text-main">{product.price}</p>
+                                <p className="mb-0 text-main"> ${product.price}</p>
                             </div>
                         </div>
                     </ProductWrapper>
